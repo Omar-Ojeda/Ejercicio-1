@@ -1,21 +1,26 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background: #fafafa;
+    background: #ddd;
 }
 header {
     padding: 50px;
     /* background: #2c3e50; */
-    background: #ddd;
-    color: #222;
+    background: #333;
+    color: #fff;
     font-weight: bold;
 }
 
 .card{
-    background-color: #1a8;
+    background-color: #18233f;
     text-align: center;
-    width: 400px;
+    width: 1500px;
+    height: 80vh;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
@@ -25,17 +30,17 @@ header {
 
 .card-title{
     font-size: 35px;
-    margin: 0;
+    margin-top: 15px;
     text-transform: uppercase;
 }
 
 .card-subtitle {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 100;
     font-style: italic;
     letter-spacing: 2px;
     margin: 10px 0 0 0;
-    color: #000;
+    color: #fff;
 }
 
 .card-content{
@@ -48,6 +53,58 @@ header {
 }
 
 .card-img{
-    width: 150px;
+    width: 500px;
     border-radius: 50%;
+}
+
+/*     MEJORAS AL SECTION     */
+
+.proyectos{
+    background-color: #18233f;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.proyectos-title{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.proyectos-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    gap: 12px;
+    padding: 12px;
+    min-height: 90vh;
+}
+
+.proyecto{
+    background-position: top;
+    background-size: cover;
+    outline: 1px solid #fff6;
+    display: grid;
+    place-content: center;
+    transition: outline 0.25s;
+    border-radius: 8px;
+}
+
+.proyecto:hover{
+    opacity: 0.74;
+    outline: 2px solid #f00;
+}
+
+.proyecto-1{
+    background-image: linear-gradient(#0009, #0009), url("https://res.cloudinary.com/dz209s6jk/image/upload/v1669934210/Screenshots/qxrlrqlwptcnn5z8ajt5.jpg");
+}
+
+.proyecto-2{
+    background-image: linear-gradient(#0009, #0009), url("https://seranking.com/es/blog/wp-content/uploads/sites/13/2020/04/Landing-page.png");
 }
