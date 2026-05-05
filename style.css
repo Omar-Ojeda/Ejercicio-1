@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background: #ddd;
+    background: #333;
 }
 header {
     padding: 50px;
@@ -19,13 +19,14 @@ header {
 .card{
     background-color: #18233f;
     text-align: center;
-    width: 1500px;
+    width: 80%;
     height: 80vh;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     box-shadow: 0 0 50px #0007;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .card-title{
@@ -68,6 +69,8 @@ header {
     text-align: center;
     justify-content: space-evenly;
     padding-bottom: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 50px #0007;
 }
 
 .proyectos-title{
@@ -107,4 +110,15 @@ header {
 
 .proyecto-2{
     background-image: linear-gradient(#0009, #0009), url("https://seranking.com/es/blog/wp-content/uploads/sites/13/2020/04/Landing-page.png");
+}
+
+/* FOOTER SECTION */
+
+footer {
+    padding: 60px;
+    text-align: center;
+    background-color: #18233f;
+    color: #fff;
+    font-size: 22px;
+    box-shadow: 0 0 50px #0007;
 }
