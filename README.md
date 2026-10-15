@@ -36,8 +36,6 @@ El siguiente diagrama representa las tablas de la base de datos y sus relaciones
 
 ![Diagrama entidad-relación de la base de datos](Proyecto%20Final%20DER.png)
 
-> **Nota:** guardá la imagen del diagrama en la misma carpeta que este README con el nombre `Proyecto Final DER.png`. Si el archivo tiene otro nombre o está en otra carpeta, actualizá la ruta de la imagen.
-
 ---
 
 ## 3. Código utilizado para la normalización
